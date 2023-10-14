@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Open+Sans&display=swap'); /*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans&display=swap'); /*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;900&family=Open+Sans&display=swap');
+
+html{
+    font-size: 16px;
+    overflow-x:hidden;
+}
+/*_________________________________*/
+.banner1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-image: url('../imagenes/banner2.jpeg');
+    background-color: rgba(243, 231, 231, 0.672);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(16, 13, 13, 0.752);
+    margin-top: 50px;
+   
+    
+  }
+
+/*_________________________________*/
+
+header.banner1 h1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem !important;
+    
+}
+
+header.banner1 .parrafouno {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+header.banner1 .boton1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+
+/*_________________________________*/
+h2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    
+}
+
+.parrafodos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+.imagena {
+    max-width: 0%; /* Ajusta el valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    padding: 0 89px;
+}
+
+/*_________________________________*/
+h3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    
+}
+
+.parrafotres {
+    flex: 1;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: right; 
+    justify-content: center; 
+    margin-top: 10px;
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*_________________________________*/
+
+.ilustracion-pequena {
+    width: 320%; 
+    height: auto; 
+    padding: 0 45px;
+}
+
+
+/*_________________________________*/
+
+.cards{
+
+    margin-bottom: -20px;
+}
+
+/*_________________________________*/
+
+
+
+h4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.parrafo4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+/*_________________________________*/
+
+h5{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.parrafo5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+/*_________________________________*/
+
+.banner2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    background-image: url('../imagenes/banner1.jpg');
+    background-color: rgba(243, 231, 231, 0.672);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(16, 13, 13, 0.752);
+    margin-top: 85px;
+  }
+
+  .banner2 h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem !important;
+}
+
+.banner2 .parrafo6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.banner2 .boton2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Media query para ajustar el tamaño de fuente en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .banner2 h6 {
+        font-size: 2rem;
+    }
+
+    .banner2 .parrafo6 {
+        font-size: 1rem;
+    }
+
+    .banner2 .boton2 {
+        font-size: 1.1rem;
+    }
+}
+
+
+/*_________________________________*/
+
+h7{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem !important;
+}
+
+.parrafo7 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+h8{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+    margin-top: 50px;
+    size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem !important;
+}
+
+.boton2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem !important;
+}
+
+.empresa{
+    margin-bottom: 100px;
+}
+/*_________________________________*/
+
+h9{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem !important;
+}
+
+.parrafo9 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem !important;
+}
+
+
+.text-white{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem !important;
+}
+/*_________________________________*/
+
