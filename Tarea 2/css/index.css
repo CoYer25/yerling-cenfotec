@@ -33,7 +33,7 @@ header.banner1 h1 {
     align-items: left; 
     justify-content: center; 
     margin-top: 50px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3rem !important;
     
 }
@@ -75,7 +75,7 @@ h2 {
 }
 
 /*_________________________________*/
-h3 {
+.nosotros h3 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ h3 {
     margin-top: 50px;
     size: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
@@ -112,25 +112,19 @@ h3 {
 
 /*_________________________________*/
 
-.cards{
-
-    margin-bottom: -20px;
-}
-
-/*_________________________________*/
 
 
 
-h4{
+.cards h4{
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: left; 
     justify-content: center; 
-    margin-top: 50px;
+    margin-top: 10px;
     size: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .parrafo4{
