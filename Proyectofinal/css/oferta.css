@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;700&family=Kanit:ital,wght@0,200;0,300;0,400;0,600;1,200;1,600&family=Montserrat:wght@200;500;600;900&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;700&family=Kanit:ital,wght@0,200;0,300;0,400;0,600;1,200;1,600&family=Montserrat:wght@200;500;600;900&family=Open+Sans&family=Poppins:ital,wght@0,500;1,300;1,400&family=Roboto:wght@700&display=swap');
+html{
+    font-size: 16px;
+    overflow-x:hidden;
+
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.3rem !important;
+    text-align: center;
+    text-decoration: none;
+    color: #110101; /* Letras blancas */
+    background-color: #f4b70e; /* Fondo rosado */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+  .cta-btn:hover {
+    background-color: #e7d50992; /* Cambia a un tono más oscuro de rosado al pasar el ratón */
+  }
+  
+
+.navbar-brand img {
+    max-height: 90px; /* Ajusta el tamaño según tus necesidades */
+}
+.navbar {
+    background-color: #f2e8f0; /* Cambia el color de fondo según tus preferencias */
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+.navbar {
+    background-color: #dfc5df; /* Cambia el color de fondo según tus preferencias */
+    font-size: 18px;
+}
+
+.banner {
+    height: 60vh; 
+    margin-top: 60px; 
+}
+
+.bannerparallax {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: calc(60vh);
+    background-position: center;
+    background-image: url('../img/ofertabanner.jpg');
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(48, 22, 47, 0.638);
+    margin-top: 60px; 
+}
+
+
+
+
+.oferta {
+    max-width: 200%; /* Ajusta el ancho máximo según tus necesidades */
+    max-height: 1000px; /* Ajusta la altura máxima según tus necesidades */
+    margin-bottom: 100px;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulouno, .titulo2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulouno, .parrafouno {
+    color:rgb(247, 244, 245)
+}
+
+.parrafouno{
+    font-size: 1.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.espacio {
+    margin-top:80px;
+}
+
+.parrafodos{
+    font-size: 1.5rem !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mi-footer {
+    background-color: #efc2e6; 
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;}
+    .info {
+        color: black;
+    }
+
+    .botonws {
+        position: fixed;
+        right: 20px;
+        bottom: 150px;
+        cursor:pointer;
+        width: 80px;     
+        color: white;
+     
+    }
+
+.oferta {
+    width: 120%; 
+    height: auto; 
+    padding: 0 45px;
+    }
